@@ -1,0 +1,27 @@
+# ===== Large datasets (do NOT upload to GitHub) =====
+corpus/wiki_webq_corpus.tsv
+datas/webq-train.json
+
+# ===== Outputs / cache =====
+output/
+*.pkl
+*.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ===== Virtual environments =====
+.venv/
+env/
+conda/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
